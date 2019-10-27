@@ -1,0 +1,28 @@
+{
+  "name": "gulp-start",
+  "version": "1.0.0",
+  "description": "start gulp",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d app"
+  },
+  "author": "Christina Polishuk",
+  "license": "ISC",
+  "homepage": "https://senyqy.github.io/GoSerf",
+  "devDependencies": {
+    "animate.css": "^3.7.2",
+    "browser-sync": "^2.26.5",
+    "del": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "normalize.css": "^8.0.1"
+  },
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "slick-carousel": "^1.8.1"
+  }
+}
