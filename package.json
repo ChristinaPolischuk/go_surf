@@ -8,7 +8,7 @@
   },
   "author": "Christina Polishuk",
   "license": "ISC",
-  "homepage": "https://senyqy.github.io/GoSerf",
+  "homepage": "https://senyqy.github.io/go_surf",
   "devDependencies": {
     "animate.css": "^3.7.2",
     "browser-sync": "^2.26.5",
