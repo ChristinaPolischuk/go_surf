@@ -204,7 +204,6 @@
 }
 
 .surf {
-  padding: 160px 0 120px;
   background-image: url('../img/surf-bg.png');
   background-position: right 200px;
   background-repeat: no-repeat;
@@ -505,6 +504,89 @@
       font-weight: 300;
       font-size: 10px;
       line-height: 12px;      
+    }
+
+  }
+
+}
+
+.travel {
+  background-image: url('../img/travel-bg.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+
+  &-slider {
+    &__head {
+      background-repeat: no-repeat;
+      background-position: top left;
+      min-height: 780px;
+    }
+    &__descr {
+      margin-top: -230px;
+      padding: 160px 0 0 132px;
+      min-height: 320px;
+      background-repeat: no-repeat;
+      background-position: right center;
+      img {
+        padding-left: 24px;
+      }
+    }
+    &__subtitle {
+      padding-right: 80px;
+      padding-top: 132px;
+      text-align: right;
+    }
+    &__btn {
+      text-align: center;
+    }
+  }
+
+}
+
+.travel-slider__info {
+  display: flex;
+  justify-content: space-around;
+
+  &-item {
+    min-height: 200px;
+    margin-bottom: 66px;
+    position: relative;
+  }
+
+  &-subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: right;
+    color: rgba(#fff, .5);
+    transform: rotate(-90deg);
+    // transform-origin: left top;
+    width: 200px;
+    height: 0;
+    position: absolute;
+    top: 97px;
+    left: -97px;
+  }
+
+  &-title {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 45px;
+    padding-left: 40px;
+    position: relative;
+
+    span {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 18px;
+      text-align: right;
+      letter-spacing: 5.25px;
+      color: rgba(#fff, .75);
+      position: absolute;
+      right: 0;
+      bottom: -12px;
     }
 
   }
