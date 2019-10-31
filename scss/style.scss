@@ -515,6 +515,11 @@
   background-position: right bottom;
   background-repeat: no-repeat;
 
+  .slider-arrow {
+    top: 225px;
+    opacity: 0.25;
+  }
+
   &-slider {
     &__head {
       background-repeat: no-repeat;
@@ -527,9 +532,15 @@
       min-height: 320px;
       background-repeat: no-repeat;
       background-position: right center;
-      img {
-        padding-left: 24px;
-      }
+      .descr__head {
+        position: relative;
+        padding-right: 78px;
+          img {
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+        }
     }
     &__subtitle {
       padding-right: 80px;
