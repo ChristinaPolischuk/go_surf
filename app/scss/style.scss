@@ -510,10 +510,17 @@
 
 }
 
-.travel {
-  background-image: url('../img/travel-bg.png');
+.holder {
   background-position: right bottom;
   background-repeat: no-repeat;
+
+  &.travel {
+    background-image: url('../img/travel-bg.png');
+  }
+
+  &.sleep {
+    background-image: url('../img/frangipani.png');
+  }
 
   .slider-arrow {
     top: 225px;
@@ -532,13 +539,26 @@
       min-height: 320px;
       background-repeat: no-repeat;
       background-position: right center;
+      background-size: contain;
       .descr__head {
         position: relative;
-        padding-right: 78px;
+        padding-right: 68px;
+        
+        &-sleep {
+          padding-right: 215px;
+        }
           img {
             position: absolute;
             right: 0;
             top: 0;
+          }
+          .holder__star-list {
+            position: absolute;
+            right: 0;
+            top: 0;
+            img {
+              position: static;
+            }
           }
         }
     }
@@ -554,7 +574,7 @@
 
 }
 
-.travel-slider__info {
+.holder-slider__info {
   display: flex;
   justify-content: space-around;
 
@@ -588,7 +608,7 @@
     padding-left: 40px;
     position: relative;
 
-    span {
+    .holder-pricing__descr {
       font-size: 14px;
       font-weight: 400;
       line-height: 18px;
@@ -602,6 +622,16 @@
 
   }
 
+}
+
+.shop {
+  background-image: url('../img/shop-bg.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.shop__slider{
+  padding-left: 132px;
 }
 
 @import "media";
